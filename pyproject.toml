@@ -1,0 +1,66 @@
+[project]
+name = "invoice-api"
+version = "1.0.0"
+description = "REST API for invoices, customers and products: FastAPI, PostgreSQL, SQLAlchemy and Alembic."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.16",
+    "fastapi>=0.120",
+    "psycopg[binary]>=3.2.10",
+    "pydantic-settings>=2.10",
+    "pyjwt>=2.10",
+    "sqlalchemy>=2.0.43",
+    "uvicorn[standard]>=0.37",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28",
+    "jsonschema>=4.25",
+    "mypy>=1.18",
+    "pytest>=8.4",
+    "pytest-cov>=7.0",
+    "pyyaml>=6.0.3",
+    "ruff>=0.14",
+    "types-pyyaml>=6.0.12",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/invoice_api"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+# Errors, pyflakes, import order, naming, bugbear, simplifications, upgrades.
+select = ["E", "F", "I", "N", "B", "SIM", "UP", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/invoice_api/seed_data.py" = ["RUF001"]
+
+[tool.mypy]
+strict = true
+plugins = ["pydantic.mypy"]
+files = ["src", "tests"]
+
+[[tool.mypy.overrides]]
+module = ["jsonschema"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers"
+
+[tool.coverage.run]
+source = ["invoice_api"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

@@ -1,0 +1,2167 @@
+{
+ "customers": [
+  {
+   "id": 1,
+   "first_name": "Inès",
+   "last_name": "Roux",
+   "address": "81 avenue Jean Jaurès",
+   "zip_code": "31000",
+   "city": "Toulouse",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 2,
+   "first_name": "Chloé",
+   "last_name": "Lefebvre",
+   "address": "104 impasse des Peupliers",
+   "zip_code": "59000",
+   "city": "Lille",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 3,
+   "first_name": "Victor",
+   "last_name": "Garcia",
+   "address": "37 avenue Jean Jaurès",
+   "zip_code": "13006",
+   "city": "Marseille",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 4,
+   "first_name": "Clara",
+   "last_name": "Lefebvre",
+   "address": "1 impasse des Peupliers",
+   "zip_code": "59000",
+   "city": "Lille",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 5,
+   "first_name": "Lucas",
+   "last_name": "Laurent",
+   "address": "4 boulevard Victor Hugo",
+   "zip_code": "67000",
+   "city": "Strasbourg",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 6,
+   "first_name": "Léa",
+   "last_name": "David",
+   "address": "64 rue de la République",
+   "zip_code": "75011",
+   "city": "Paris",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 7,
+   "first_name": "Zoé",
+   "last_name": "Moreau",
+   "address": "98 rue des Lilas",
+   "zip_code": "69003",
+   "city": "Lyon",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 8,
+   "first_name": "Camille",
+   "last_name": "Bernard",
+   "address": "67 place du Marché",
+   "zip_code": "44000",
+   "city": "Nantes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 9,
+   "first_name": "Tom",
+   "last_name": "Robert",
+   "address": "37 rue Pasteur",
+   "zip_code": "13006",
+   "city": "Marseille",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 10,
+   "first_name": "Sarah",
+   "last_name": "Robert",
+   "address": "35 boulevard Victor Hugo",
+   "zip_code": "67000",
+   "city": "Strasbourg",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 11,
+   "first_name": "Tom",
+   "last_name": "Michel",
+   "address": "84 quai de Seine",
+   "zip_code": "75011",
+   "city": "Paris",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 12,
+   "first_name": "Lina",
+   "last_name": "Leroy",
+   "address": "114 avenue Jean Jaurès",
+   "zip_code": "75011",
+   "city": "Paris",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 13,
+   "first_name": "Camille",
+   "last_name": "Durand",
+   "address": "58 chemin des Vignes",
+   "zip_code": "69003",
+   "city": "Lyon",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 14,
+   "first_name": "Lucas",
+   "last_name": "Garcia",
+   "address": "113 boulevard Victor Hugo",
+   "zip_code": "67000",
+   "city": "Strasbourg",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 15,
+   "first_name": "Léa",
+   "last_name": "Simon",
+   "address": "99 avenue Jean Jaurès",
+   "zip_code": "35000",
+   "city": "Rennes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 16,
+   "first_name": "Nathan",
+   "last_name": "Vincent",
+   "address": "53 place du Marché",
+   "zip_code": "34000",
+   "city": "Montpellier",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 17,
+   "first_name": "Alice",
+   "last_name": "Petit",
+   "address": "88 boulevard Victor Hugo",
+   "zip_code": "33000",
+   "city": "Bordeaux",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 18,
+   "first_name": "Zoé",
+   "last_name": "Michel",
+   "address": "120 allée des Tilleuls",
+   "zip_code": "44000",
+   "city": "Nantes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 19,
+   "first_name": "Nathan",
+   "last_name": "Richard",
+   "address": "13 chemin des Vignes",
+   "zip_code": "44000",
+   "city": "Nantes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 20,
+   "first_name": "Julia",
+   "last_name": "Vincent",
+   "address": "12 impasse des Peupliers",
+   "zip_code": "33000",
+   "city": "Bordeaux",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 21,
+   "first_name": "Hugo",
+   "last_name": "Fournier",
+   "address": "22 rue Pasteur",
+   "zip_code": "67000",
+   "city": "Strasbourg",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 22,
+   "first_name": "Louis",
+   "last_name": "Leroy",
+   "address": "20 chemin des Vignes",
+   "zip_code": "31000",
+   "city": "Toulouse",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 23,
+   "first_name": "Léa",
+   "last_name": "Lefebvre",
+   "address": "107 rue des Lilas",
+   "zip_code": "33000",
+   "city": "Bordeaux",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 24,
+   "first_name": "Arthur",
+   "last_name": "Dubois",
+   "address": "104 rue des Lilas",
+   "zip_code": "35000",
+   "city": "Rennes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 25,
+   "first_name": "Paul",
+   "last_name": "Lefebvre",
+   "address": "106 quai de Seine",
+   "zip_code": "75011",
+   "city": "Paris",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 26,
+   "first_name": "Alice",
+   "last_name": "Moreau",
+   "address": "23 rue de la République",
+   "zip_code": "13006",
+   "city": "Marseille",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 27,
+   "first_name": "Paul",
+   "last_name": "Richard",
+   "address": "34 rue des Lilas",
+   "zip_code": "35000",
+   "city": "Rennes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 28,
+   "first_name": "Louis",
+   "last_name": "Fournier",
+   "address": "69 quai de Seine",
+   "zip_code": "75011",
+   "city": "Paris",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 29,
+   "first_name": "Léa",
+   "last_name": "Laurent",
+   "address": "36 rue des Lilas",
+   "zip_code": "69003",
+   "city": "Lyon",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 30,
+   "first_name": "Inès",
+   "last_name": "Michel",
+   "address": "48 rue des Lilas",
+   "zip_code": "44000",
+   "city": "Nantes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 31,
+   "first_name": "Gabriel",
+   "last_name": "Moreau",
+   "address": "74 place du Marché",
+   "zip_code": "67000",
+   "city": "Strasbourg",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 32,
+   "first_name": "Louis",
+   "last_name": "Petit",
+   "address": "36 rue des Lilas",
+   "zip_code": "59000",
+   "city": "Lille",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 33,
+   "first_name": "Louis",
+   "last_name": "Thomas",
+   "address": "84 rue des Lilas",
+   "zip_code": "31000",
+   "city": "Toulouse",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 34,
+   "first_name": "Gabriel",
+   "last_name": "Martin",
+   "address": "70 boulevard Victor Hugo",
+   "zip_code": "69003",
+   "city": "Lyon",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 35,
+   "first_name": "Arthur",
+   "last_name": "Garcia",
+   "address": "110 allée des Tilleuls",
+   "zip_code": "44000",
+   "city": "Nantes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 36,
+   "first_name": "Hugo",
+   "last_name": "Roux",
+   "address": "64 allée des Tilleuls",
+   "zip_code": "44000",
+   "city": "Nantes",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 37,
+   "first_name": "Inès",
+   "last_name": "Dubois",
+   "address": "75 allée des Tilleuls",
+   "zip_code": "67000",
+   "city": "Strasbourg",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 38,
+   "first_name": "Arthur",
+   "last_name": "Simon",
+   "address": "119 impasse des Peupliers",
+   "zip_code": "13006",
+   "city": "Marseille",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 39,
+   "first_name": "Zoé",
+   "last_name": "Garcia",
+   "address": "7 rue de la République",
+   "zip_code": "67000",
+   "city": "Strasbourg",
+   "country": "France",
+   "country_code": "FR"
+  },
+  {
+   "id": 40,
+   "first_name": "Sarah",
+   "last_name": "Michel",
+   "address": "92 quai de Seine",
+   "zip_code": "69003",
+   "city": "Lyon",
+   "country": "France",
+   "country_code": "FR"
+  }
+ ],
+ "products": [
+  {
+   "id": 1,
+   "label": "Strategy consulting",
+   "unit": "hour",
+   "vat_rate": "20",
+   "unit_price_without_tax": "150.00",
+   "unit_tax": "30.00",
+   "unit_price": "180.00"
+  },
+  {
+   "id": 2,
+   "label": "Frontend development",
+   "unit": "day",
+   "vat_rate": "20",
+   "unit_price_without_tax": "600.00",
+   "unit_tax": "120.00",
+   "unit_price": "720.00"
+  },
+  {
+   "id": 3,
+   "label": "Backend development",
+   "unit": "day",
+   "vat_rate": "20",
+   "unit_price_without_tax": "650.00",
+   "unit_tax": "130.00",
+   "unit_price": "780.00"
+  },
+  {
+   "id": 4,
+   "label": "UX audit",
+   "unit": "day",
+   "vat_rate": "20",
+   "unit_price_without_tax": "800.00",
+   "unit_tax": "160.00",
+   "unit_price": "960.00"
+  },
+  {
+   "id": 5,
+   "label": "Project management",
+   "unit": "hour",
+   "vat_rate": "20",
+   "unit_price_without_tax": "90.00",
+   "unit_tax": "18.00",
+   "unit_price": "108.00"
+  },
+  {
+   "id": 6,
+   "label": "Technical support",
+   "unit": "hour",
+   "vat_rate": "20",
+   "unit_price_without_tax": "65.00",
+   "unit_tax": "13.00",
+   "unit_price": "78.00"
+  },
+  {
+   "id": 7,
+   "label": "Training workshop",
+   "unit": "day",
+   "vat_rate": "20",
+   "unit_price_without_tax": "1200.00",
+   "unit_tax": "240.00",
+   "unit_price": "1440.00"
+  },
+  {
+   "id": 8,
+   "label": "Copywriting",
+   "unit": "hour",
+   "vat_rate": "20",
+   "unit_price_without_tax": "55.00",
+   "unit_tax": "11.00",
+   "unit_price": "66.00"
+  },
+  {
+   "id": 9,
+   "label": "Laptop stand",
+   "unit": "piece",
+   "vat_rate": "20",
+   "unit_price_without_tax": "39.90",
+   "unit_tax": "7.98",
+   "unit_price": "47.88"
+  },
+  {
+   "id": 10,
+   "label": "Ergonomic office chair",
+   "unit": "piece",
+   "vat_rate": "20",
+   "unit_price_without_tax": "349.00",
+   "unit_tax": "69.80",
+   "unit_price": "418.80"
+  },
+  {
+   "id": 11,
+   "label": "Standing desk",
+   "unit": "piece",
+   "vat_rate": "20",
+   "unit_price_without_tax": "529.00",
+   "unit_tax": "105.80",
+   "unit_price": "634.80"
+  },
+  {
+   "id": 12,
+   "label": "27\" monitor",
+   "unit": "piece",
+   "vat_rate": "20",
+   "unit_price_without_tax": "289.00",
+   "unit_tax": "57.80",
+   "unit_price": "346.80"
+  },
+  {
+   "id": 13,
+   "label": "Wireless keyboard",
+   "unit": "piece",
+   "vat_rate": "20",
+   "unit_price_without_tax": "79.00",
+   "unit_tax": "15.80",
+   "unit_price": "94.80"
+  },
+  {
+   "id": 14,
+   "label": "Accounting handbook",
+   "unit": "piece",
+   "vat_rate": "5.5",
+   "unit_price_without_tax": "32.00",
+   "unit_tax": "1.76",
+   "unit_price": "33.76"
+  },
+  {
+   "id": 15,
+   "label": "Business magazine subscription",
+   "unit": "piece",
+   "vat_rate": "5.5",
+   "unit_price_without_tax": "12.50",
+   "unit_tax": "0.69",
+   "unit_price": "13.19"
+  },
+  {
+   "id": 16,
+   "label": "Coffee beans (1kg)",
+   "unit": "piece",
+   "vat_rate": "5.5",
+   "unit_price_without_tax": "24.00",
+   "unit_tax": "1.32",
+   "unit_price": "25.32"
+  },
+  {
+   "id": 17,
+   "label": "Catering lunch",
+   "unit": "piece",
+   "vat_rate": "10",
+   "unit_price_without_tax": "18.00",
+   "unit_tax": "1.80",
+   "unit_price": "19.80"
+  },
+  {
+   "id": 18,
+   "label": "Team dinner",
+   "unit": "piece",
+   "vat_rate": "10",
+   "unit_price_without_tax": "45.00",
+   "unit_tax": "4.50",
+   "unit_price": "49.50"
+  },
+  {
+   "id": 19,
+   "label": "Hotel night",
+   "unit": "day",
+   "vat_rate": "10",
+   "unit_price_without_tax": "120.00",
+   "unit_tax": "12.00",
+   "unit_price": "132.00"
+  },
+  {
+   "id": 20,
+   "label": "Passenger transport",
+   "unit": "piece",
+   "vat_rate": "10",
+   "unit_price_without_tax": "35.00",
+   "unit_tax": "3.50",
+   "unit_price": "38.50"
+  },
+  {
+   "id": 21,
+   "label": "Medical consultation",
+   "unit": "hour",
+   "vat_rate": "0",
+   "unit_price_without_tax": "60.00",
+   "unit_tax": "0.00",
+   "unit_price": "60.00"
+  },
+  {
+   "id": 22,
+   "label": "Professional training (certified)",
+   "unit": "day",
+   "vat_rate": "0",
+   "unit_price_without_tax": "450.00",
+   "unit_tax": "0.00",
+   "unit_price": "450.00"
+  },
+  {
+   "id": 23,
+   "label": "Export shipment",
+   "unit": "piece",
+   "vat_rate": "0",
+   "unit_price_without_tax": "85.00",
+   "unit_tax": "0.00",
+   "unit_price": "85.00"
+  },
+  {
+   "id": 24,
+   "label": "Software licence (annual)",
+   "unit": "piece",
+   "vat_rate": "20",
+   "unit_price_without_tax": "480.00",
+   "unit_tax": "96.00",
+   "unit_price": "576.00"
+  },
+  {
+   "id": 25,
+   "label": "Cloud hosting",
+   "unit": "day",
+   "vat_rate": "20",
+   "unit_price_without_tax": "9.50",
+   "unit_tax": "1.90",
+   "unit_price": "11.40"
+  }
+ ],
+ "invoices": [
+  {
+   "id": 1,
+   "customer_id": 14,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-06-13",
+   "deadline": "2026-07-28",
+   "invoice_lines": [
+    {
+     "id": 1,
+     "invoice_id": 1,
+     "product_id": 15,
+     "quantity": 4
+    },
+    {
+     "id": 2,
+     "invoice_id": 1,
+     "product_id": 12,
+     "quantity": 9
+    },
+    {
+     "id": 3,
+     "invoice_id": 1,
+     "product_id": 18,
+     "quantity": 4
+    },
+    {
+     "id": 4,
+     "invoice_id": 1,
+     "product_id": 24,
+     "quantity": 7
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "customer_id": 39,
+   "finalized": true,
+   "paid": true,
+   "date": "2026-07-01",
+   "deadline": "2026-07-16",
+   "invoice_lines": [
+    {
+     "id": 5,
+     "invoice_id": 2,
+     "product_id": 17,
+     "quantity": 8
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "customer_id": 2,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-07-23",
+   "deadline": "2026-08-22",
+   "invoice_lines": [
+    {
+     "id": 6,
+     "invoice_id": 3,
+     "product_id": 7,
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "customer_id": 14,
+   "finalized": true,
+   "paid": false,
+   "date": "2025-07-11",
+   "deadline": "2025-08-10",
+   "invoice_lines": [
+    {
+     "id": 7,
+     "invoice_id": 4,
+     "product_id": 20,
+     "quantity": 2
+    },
+    {
+     "id": 8,
+     "invoice_id": 4,
+     "product_id": 17,
+     "quantity": 6
+    },
+    {
+     "id": 9,
+     "invoice_id": 4,
+     "product_id": 12,
+     "quantity": 5
+    },
+    {
+     "id": 10,
+     "invoice_id": 4,
+     "product_id": 12,
+     "quantity": 5
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "customer_id": 38,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-07-22",
+   "deadline": "2025-08-06",
+   "invoice_lines": [
+    {
+     "id": 11,
+     "invoice_id": 5,
+     "product_id": 14,
+     "quantity": 7
+    },
+    {
+     "id": 12,
+     "invoice_id": 5,
+     "product_id": 11,
+     "quantity": 2
+    },
+    {
+     "id": 13,
+     "invoice_id": 5,
+     "product_id": 1,
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "customer_id": 15,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-02-19",
+   "deadline": "2025-04-20",
+   "invoice_lines": [
+    {
+     "id": 14,
+     "invoice_id": 6,
+     "product_id": 21,
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "customer_id": 4,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-06-02",
+   "deadline": "2025-07-17",
+   "invoice_lines": [
+    {
+     "id": 15,
+     "invoice_id": 7,
+     "product_id": 19,
+     "quantity": 7
+    },
+    {
+     "id": 16,
+     "invoice_id": 7,
+     "product_id": 20,
+     "quantity": 6
+    },
+    {
+     "id": 17,
+     "invoice_id": 7,
+     "product_id": 21,
+     "quantity": 6
+    },
+    {
+     "id": 18,
+     "invoice_id": 7,
+     "product_id": 5,
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "customer_id": 34,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-02-13",
+   "deadline": "2025-03-15",
+   "invoice_lines": [
+    {
+     "id": 19,
+     "invoice_id": 8,
+     "product_id": 15,
+     "quantity": 10
+    },
+    {
+     "id": 20,
+     "invoice_id": 8,
+     "product_id": 1,
+     "quantity": 4
+    },
+    {
+     "id": 21,
+     "invoice_id": 8,
+     "product_id": 9,
+     "quantity": 3
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "customer_id": 20,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-12-16",
+   "deadline": "2025-12-31",
+   "invoice_lines": [
+    {
+     "id": 22,
+     "invoice_id": 9,
+     "product_id": 7,
+     "quantity": 6
+    },
+    {
+     "id": 23,
+     "invoice_id": 9,
+     "product_id": 22,
+     "quantity": 10
+    },
+    {
+     "id": 24,
+     "invoice_id": 9,
+     "product_id": 18,
+     "quantity": 6
+    },
+    {
+     "id": 25,
+     "invoice_id": 9,
+     "product_id": 21,
+     "quantity": 4
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "customer_id": 27,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-05-01",
+   "deadline": "2026-06-15",
+   "invoice_lines": [
+    {
+     "id": 26,
+     "invoice_id": 10,
+     "product_id": 14,
+     "quantity": 10
+    },
+    {
+     "id": 27,
+     "invoice_id": 10,
+     "product_id": 25,
+     "quantity": 8
+    },
+    {
+     "id": 28,
+     "invoice_id": 10,
+     "product_id": 8,
+     "quantity": 7
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "customer_id": 34,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-07-14",
+   "deadline": "2026-08-13",
+   "invoice_lines": [
+    {
+     "id": 29,
+     "invoice_id": 11,
+     "product_id": 22,
+     "quantity": 5
+    },
+    {
+     "id": 30,
+     "invoice_id": 11,
+     "product_id": 9,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "customer_id": 20,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-02-06",
+   "deadline": "2026-04-07",
+   "invoice_lines": [
+    {
+     "id": 31,
+     "invoice_id": 12,
+     "product_id": 8,
+     "quantity": 10
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "customer_id": 3,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-07-01",
+   "deadline": "2025-08-15",
+   "invoice_lines": [
+    {
+     "id": 32,
+     "invoice_id": 13,
+     "product_id": 18,
+     "quantity": 2
+    },
+    {
+     "id": 33,
+     "invoice_id": 13,
+     "product_id": 22,
+     "quantity": 10
+    },
+    {
+     "id": 34,
+     "invoice_id": 13,
+     "product_id": 14,
+     "quantity": 5
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "customer_id": 2,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-11-22",
+   "deadline": "2026-01-21",
+   "invoice_lines": [
+    {
+     "id": 35,
+     "invoice_id": 14,
+     "product_id": 12,
+     "quantity": 7
+    },
+    {
+     "id": 36,
+     "invoice_id": 14,
+     "product_id": 18,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "customer_id": 26,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-04-23",
+   "deadline": "2025-05-08",
+   "invoice_lines": [
+    {
+     "id": 37,
+     "invoice_id": 15,
+     "product_id": 21,
+     "quantity": 7
+    },
+    {
+     "id": 38,
+     "invoice_id": 15,
+     "product_id": 3,
+     "quantity": 1
+    },
+    {
+     "id": 39,
+     "invoice_id": 15,
+     "product_id": 7,
+     "quantity": 8
+    },
+    {
+     "id": 40,
+     "invoice_id": 15,
+     "product_id": 7,
+     "quantity": 9
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "customer_id": 20,
+   "finalized": true,
+   "paid": true,
+   "date": "2026-08-11",
+   "deadline": "2026-10-10",
+   "invoice_lines": [
+    {
+     "id": 41,
+     "invoice_id": 16,
+     "product_id": 6,
+     "quantity": 5
+    },
+    {
+     "id": 42,
+     "invoice_id": 16,
+     "product_id": 7,
+     "quantity": 3
+    },
+    {
+     "id": 43,
+     "invoice_id": 16,
+     "product_id": 19,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "customer_id": 10,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-01-20",
+   "deadline": "2026-02-04",
+   "invoice_lines": [
+    {
+     "id": 44,
+     "invoice_id": 17,
+     "product_id": 23,
+     "quantity": 2
+    },
+    {
+     "id": 45,
+     "invoice_id": 17,
+     "product_id": 2,
+     "quantity": 1
+    },
+    {
+     "id": 46,
+     "invoice_id": 17,
+     "product_id": 9,
+     "quantity": 3
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "customer_id": 16,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-10-02",
+   "deadline": "2026-11-16",
+   "invoice_lines": [
+    {
+     "id": 47,
+     "invoice_id": 18,
+     "product_id": 17,
+     "quantity": 1
+    },
+    {
+     "id": 48,
+     "invoice_id": 18,
+     "product_id": 19,
+     "quantity": 8
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "customer_id": 35,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-05-17",
+   "deadline": "2025-07-16",
+   "invoice_lines": [
+    {
+     "id": 49,
+     "invoice_id": 19,
+     "product_id": 20,
+     "quantity": 5
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "customer_id": 27,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-05-28",
+   "deadline": "2026-06-27",
+   "invoice_lines": [
+    {
+     "id": 50,
+     "invoice_id": 20,
+     "product_id": 4,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "customer_id": 2,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-05-18",
+   "deadline": "2025-07-17",
+   "invoice_lines": [
+    {
+     "id": 51,
+     "invoice_id": 21,
+     "product_id": 16,
+     "quantity": 6
+    },
+    {
+     "id": 52,
+     "invoice_id": 21,
+     "product_id": 6,
+     "quantity": 10
+    },
+    {
+     "id": 53,
+     "invoice_id": 21,
+     "product_id": 14,
+     "quantity": 8
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "customer_id": 19,
+   "finalized": true,
+   "paid": true,
+   "date": "2026-09-11",
+   "deadline": "2026-10-26",
+   "invoice_lines": [
+    {
+     "id": 54,
+     "invoice_id": 22,
+     "product_id": 18,
+     "quantity": 8
+    },
+    {
+     "id": 55,
+     "invoice_id": 22,
+     "product_id": 7,
+     "quantity": 9
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "customer_id": 27,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-05-03",
+   "deadline": "2025-06-17",
+   "invoice_lines": [
+    {
+     "id": 56,
+     "invoice_id": 23,
+     "product_id": 3,
+     "quantity": 2
+    },
+    {
+     "id": 57,
+     "invoice_id": 23,
+     "product_id": 25,
+     "quantity": 3
+    },
+    {
+     "id": 58,
+     "invoice_id": 23,
+     "product_id": 12,
+     "quantity": 6
+    },
+    {
+     "id": 59,
+     "invoice_id": 23,
+     "product_id": 16,
+     "quantity": 5
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "customer_id": 20,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-04-17",
+   "deadline": "2025-06-16",
+   "invoice_lines": [
+    {
+     "id": 60,
+     "invoice_id": 24,
+     "product_id": 6,
+     "quantity": 6
+    },
+    {
+     "id": 61,
+     "invoice_id": 24,
+     "product_id": 20,
+     "quantity": 5
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "customer_id": 27,
+   "finalized": true,
+   "paid": false,
+   "date": "2025-06-16",
+   "deadline": "2025-07-16",
+   "invoice_lines": [
+    {
+     "id": 62,
+     "invoice_id": 25,
+     "product_id": 11,
+     "quantity": 3
+    },
+    {
+     "id": 63,
+     "invoice_id": 25,
+     "product_id": 13,
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "customer_id": 20,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-02-16",
+   "deadline": "2025-04-17",
+   "invoice_lines": [
+    {
+     "id": 64,
+     "invoice_id": 26,
+     "product_id": 21,
+     "quantity": 1
+    },
+    {
+     "id": 65,
+     "invoice_id": 26,
+     "product_id": 15,
+     "quantity": 6
+    },
+    {
+     "id": 66,
+     "invoice_id": 26,
+     "product_id": 13,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "customer_id": 15,
+   "finalized": true,
+   "paid": false,
+   "date": "2025-10-21",
+   "deadline": "2025-12-05",
+   "invoice_lines": [
+    {
+     "id": 67,
+     "invoice_id": 27,
+     "product_id": 18,
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "customer_id": 29,
+   "finalized": true,
+   "paid": false,
+   "date": "2026-04-16",
+   "deadline": "2026-06-15",
+   "invoice_lines": [
+    {
+     "id": 68,
+     "invoice_id": 28,
+     "product_id": 12,
+     "quantity": 1
+    },
+    {
+     "id": 69,
+     "invoice_id": 28,
+     "product_id": 15,
+     "quantity": 5
+    },
+    {
+     "id": 70,
+     "invoice_id": 28,
+     "product_id": 12,
+     "quantity": 5
+    },
+    {
+     "id": 71,
+     "invoice_id": 28,
+     "product_id": 19,
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "customer_id": 20,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-01-22",
+   "deadline": "2026-03-23",
+   "invoice_lines": [
+    {
+     "id": 72,
+     "invoice_id": 29,
+     "product_id": 1,
+     "quantity": 10
+    },
+    {
+     "id": 73,
+     "invoice_id": 29,
+     "product_id": 2,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "customer_id": 7,
+   "finalized": true,
+   "paid": false,
+   "date": "2026-03-19",
+   "deadline": "2026-05-03",
+   "invoice_lines": [
+    {
+     "id": 74,
+     "invoice_id": 30,
+     "product_id": 25,
+     "quantity": 10
+    },
+    {
+     "id": 75,
+     "invoice_id": 30,
+     "product_id": 25,
+     "quantity": 9
+    },
+    {
+     "id": 76,
+     "invoice_id": 30,
+     "product_id": 24,
+     "quantity": 9
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "customer_id": 7,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-03-04",
+   "deadline": "2025-05-03",
+   "invoice_lines": [
+    {
+     "id": 77,
+     "invoice_id": 31,
+     "product_id": 17,
+     "quantity": 8
+    },
+    {
+     "id": 78,
+     "invoice_id": 31,
+     "product_id": 9,
+     "quantity": 9
+    },
+    {
+     "id": 79,
+     "invoice_id": 31,
+     "product_id": 12,
+     "quantity": 10
+    },
+    {
+     "id": 80,
+     "invoice_id": 31,
+     "product_id": 17,
+     "quantity": 3
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "customer_id": 26,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-09-03",
+   "deadline": "2025-10-18",
+   "invoice_lines": [
+    {
+     "id": 81,
+     "invoice_id": 32,
+     "product_id": 16,
+     "quantity": 4
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "customer_id": 19,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-09-22",
+   "deadline": "2026-10-22",
+   "invoice_lines": [
+    {
+     "id": 82,
+     "invoice_id": 33,
+     "product_id": 1,
+     "quantity": 7
+    },
+    {
+     "id": 83,
+     "invoice_id": 33,
+     "product_id": 22,
+     "quantity": 3
+    },
+    {
+     "id": 84,
+     "invoice_id": 33,
+     "product_id": 15,
+     "quantity": 9
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "customer_id": 3,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-09-07",
+   "deadline": "2025-11-06",
+   "invoice_lines": [
+    {
+     "id": 85,
+     "invoice_id": 34,
+     "product_id": 14,
+     "quantity": 10
+    },
+    {
+     "id": 86,
+     "invoice_id": 34,
+     "product_id": 5,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "customer_id": 22,
+   "finalized": true,
+   "paid": false,
+   "date": "2026-02-22",
+   "deadline": "2026-04-23",
+   "invoice_lines": [
+    {
+     "id": 87,
+     "invoice_id": 35,
+     "product_id": 10,
+     "quantity": 6
+    },
+    {
+     "id": 88,
+     "invoice_id": 35,
+     "product_id": 5,
+     "quantity": 10
+    },
+    {
+     "id": 89,
+     "invoice_id": 35,
+     "product_id": 5,
+     "quantity": 7
+    },
+    {
+     "id": 90,
+     "invoice_id": 35,
+     "product_id": 18,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "customer_id": 37,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-02-13",
+   "deadline": "2026-04-14",
+   "invoice_lines": [
+    {
+     "id": 91,
+     "invoice_id": 36,
+     "product_id": 2,
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "customer_id": 30,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-01-06",
+   "deadline": "2025-01-21",
+   "invoice_lines": [
+    {
+     "id": 92,
+     "invoice_id": 37,
+     "product_id": 16,
+     "quantity": 1
+    },
+    {
+     "id": 93,
+     "invoice_id": 37,
+     "product_id": 11,
+     "quantity": 9
+    },
+    {
+     "id": 94,
+     "invoice_id": 37,
+     "product_id": 9,
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "customer_id": 30,
+   "finalized": true,
+   "paid": false,
+   "date": "2026-02-28",
+   "deadline": "2026-03-15",
+   "invoice_lines": [
+    {
+     "id": 95,
+     "invoice_id": 38,
+     "product_id": 15,
+     "quantity": 5
+    },
+    {
+     "id": 96,
+     "invoice_id": 38,
+     "product_id": 15,
+     "quantity": 5
+    },
+    {
+     "id": 97,
+     "invoice_id": 38,
+     "product_id": 15,
+     "quantity": 2
+    },
+    {
+     "id": 98,
+     "invoice_id": 38,
+     "product_id": 4,
+     "quantity": 8
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "customer_id": 36,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-07-05",
+   "deadline": "2025-09-03",
+   "invoice_lines": [
+    {
+     "id": 99,
+     "invoice_id": 39,
+     "product_id": 15,
+     "quantity": 4
+    },
+    {
+     "id": 100,
+     "invoice_id": 39,
+     "product_id": 17,
+     "quantity": 10
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "customer_id": 40,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-03-26",
+   "deadline": "2026-04-25",
+   "invoice_lines": [
+    {
+     "id": 101,
+     "invoice_id": 40,
+     "product_id": 23,
+     "quantity": 3
+    },
+    {
+     "id": 102,
+     "invoice_id": 40,
+     "product_id": 4,
+     "quantity": 4
+    },
+    {
+     "id": 103,
+     "invoice_id": 40,
+     "product_id": 25,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "customer_id": 21,
+   "finalized": true,
+   "paid": false,
+   "date": "2025-01-19",
+   "deadline": "2025-03-05",
+   "invoice_lines": [
+    {
+     "id": 104,
+     "invoice_id": 41,
+     "product_id": 25,
+     "quantity": 3
+    },
+    {
+     "id": 105,
+     "invoice_id": 41,
+     "product_id": 24,
+     "quantity": 4
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "customer_id": 36,
+   "finalized": true,
+   "paid": false,
+   "date": "2025-09-12",
+   "deadline": "2025-09-27",
+   "invoice_lines": [
+    {
+     "id": 106,
+     "invoice_id": 42,
+     "product_id": 8,
+     "quantity": 6
+    },
+    {
+     "id": 107,
+     "invoice_id": 42,
+     "product_id": 10,
+     "quantity": 5
+    },
+    {
+     "id": 108,
+     "invoice_id": 42,
+     "product_id": 5,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "customer_id": 26,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-03-04",
+   "deadline": "2026-04-18",
+   "invoice_lines": [
+    {
+     "id": 109,
+     "invoice_id": 43,
+     "product_id": 22,
+     "quantity": 5
+    },
+    {
+     "id": 110,
+     "invoice_id": 43,
+     "product_id": 16,
+     "quantity": 5
+    },
+    {
+     "id": 111,
+     "invoice_id": 43,
+     "product_id": 15,
+     "quantity": 7
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "customer_id": 12,
+   "finalized": true,
+   "paid": false,
+   "date": "2025-09-25",
+   "deadline": "2025-10-10",
+   "invoice_lines": [
+    {
+     "id": 112,
+     "invoice_id": 44,
+     "product_id": 9,
+     "quantity": 1
+    },
+    {
+     "id": 113,
+     "invoice_id": 44,
+     "product_id": 4,
+     "quantity": 7
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "customer_id": 12,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-02-02",
+   "deadline": "2025-03-04",
+   "invoice_lines": [
+    {
+     "id": 114,
+     "invoice_id": 45,
+     "product_id": 18,
+     "quantity": 3
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "customer_id": 36,
+   "finalized": true,
+   "paid": false,
+   "date": "2026-02-07",
+   "deadline": "2026-03-09",
+   "invoice_lines": [
+    {
+     "id": 115,
+     "invoice_id": 46,
+     "product_id": 21,
+     "quantity": 1
+    },
+    {
+     "id": 116,
+     "invoice_id": 46,
+     "product_id": 5,
+     "quantity": 4
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "customer_id": 37,
+   "finalized": true,
+   "paid": true,
+   "date": "2026-07-10",
+   "deadline": "2026-09-08",
+   "invoice_lines": [
+    {
+     "id": 117,
+     "invoice_id": 47,
+     "product_id": 16,
+     "quantity": 8
+    },
+    {
+     "id": 118,
+     "invoice_id": 47,
+     "product_id": 24,
+     "quantity": 5
+    },
+    {
+     "id": 119,
+     "invoice_id": 47,
+     "product_id": 10,
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "customer_id": 24,
+   "finalized": true,
+   "paid": false,
+   "date": "2026-01-08",
+   "deadline": "2026-01-23",
+   "invoice_lines": [
+    {
+     "id": 120,
+     "invoice_id": 48,
+     "product_id": 14,
+     "quantity": 6
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "customer_id": 29,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-09-23",
+   "deadline": "2026-11-07",
+   "invoice_lines": [
+    {
+     "id": 121,
+     "invoice_id": 49,
+     "product_id": 23,
+     "quantity": 9
+    },
+    {
+     "id": 122,
+     "invoice_id": 49,
+     "product_id": 3,
+     "quantity": 3
+    },
+    {
+     "id": 123,
+     "invoice_id": 49,
+     "product_id": 24,
+     "quantity": 4
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "customer_id": 24,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-12-15",
+   "deadline": "2026-01-14",
+   "invoice_lines": [
+    {
+     "id": 124,
+     "invoice_id": 50,
+     "product_id": 17,
+     "quantity": 9
+    },
+    {
+     "id": 125,
+     "invoice_id": 50,
+     "product_id": 23,
+     "quantity": 3
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "customer_id": 2,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-11-17",
+   "deadline": "2026-01-01",
+   "invoice_lines": [
+    {
+     "id": 126,
+     "invoice_id": 51,
+     "product_id": 11,
+     "quantity": 10
+    },
+    {
+     "id": 127,
+     "invoice_id": 51,
+     "product_id": 6,
+     "quantity": 5
+    },
+    {
+     "id": 128,
+     "invoice_id": 51,
+     "product_id": 2,
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "customer_id": 30,
+   "finalized": false,
+   "paid": false,
+   "date": "2025-03-24",
+   "deadline": "2025-04-23",
+   "invoice_lines": [
+    {
+     "id": 129,
+     "invoice_id": 52,
+     "product_id": 12,
+     "quantity": 4
+    },
+    {
+     "id": 130,
+     "invoice_id": 52,
+     "product_id": 25,
+     "quantity": 8
+    },
+    {
+     "id": 131,
+     "invoice_id": 52,
+     "product_id": 11,
+     "quantity": 4
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "customer_id": 36,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-07-11",
+   "deadline": "2025-08-25",
+   "invoice_lines": [
+    {
+     "id": 132,
+     "invoice_id": 53,
+     "product_id": 10,
+     "quantity": 2
+    },
+    {
+     "id": 133,
+     "invoice_id": 53,
+     "product_id": 24,
+     "quantity": 1
+    },
+    {
+     "id": 134,
+     "invoice_id": 53,
+     "product_id": 19,
+     "quantity": 6
+    },
+    {
+     "id": 135,
+     "invoice_id": 53,
+     "product_id": 2,
+     "quantity": 7
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "customer_id": 16,
+   "finalized": true,
+   "paid": false,
+   "date": "2025-05-07",
+   "deadline": "2025-07-06",
+   "invoice_lines": [
+    {
+     "id": 136,
+     "invoice_id": 54,
+     "product_id": 11,
+     "quantity": 1
+    },
+    {
+     "id": 137,
+     "invoice_id": 54,
+     "product_id": 10,
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "customer_id": 10,
+   "finalized": true,
+   "paid": false,
+   "date": "2025-11-10",
+   "deadline": "2025-12-10",
+   "invoice_lines": [
+    {
+     "id": 138,
+     "invoice_id": 55,
+     "product_id": 6,
+     "quantity": 2
+    },
+    {
+     "id": 139,
+     "invoice_id": 55,
+     "product_id": 5,
+     "quantity": 7
+    },
+    {
+     "id": 140,
+     "invoice_id": 55,
+     "product_id": 20,
+     "quantity": 10
+    },
+    {
+     "id": 141,
+     "invoice_id": 55,
+     "product_id": 22,
+     "quantity": 9
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "customer_id": 37,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-04-03",
+   "deadline": "2026-05-18",
+   "invoice_lines": [
+    {
+     "id": 142,
+     "invoice_id": 56,
+     "product_id": 1,
+     "quantity": 9
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "customer_id": 10,
+   "finalized": true,
+   "paid": true,
+   "date": "2026-08-26",
+   "deadline": "2026-09-10",
+   "invoice_lines": [
+    {
+     "id": 143,
+     "invoice_id": 57,
+     "product_id": 17,
+     "quantity": 7
+    },
+    {
+     "id": 144,
+     "invoice_id": 57,
+     "product_id": 3,
+     "quantity": 7
+    },
+    {
+     "id": 145,
+     "invoice_id": 57,
+     "product_id": 18,
+     "quantity": 8
+    },
+    {
+     "id": 146,
+     "invoice_id": 57,
+     "product_id": 1,
+     "quantity": 9
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "customer_id": 39,
+   "finalized": true,
+   "paid": true,
+   "date": "2025-12-08",
+   "deadline": "2026-01-07",
+   "invoice_lines": [
+    {
+     "id": 147,
+     "invoice_id": 58,
+     "product_id": 25,
+     "quantity": 6
+    },
+    {
+     "id": 148,
+     "invoice_id": 58,
+     "product_id": 6,
+     "quantity": 1
+    },
+    {
+     "id": 149,
+     "invoice_id": 58,
+     "product_id": 21,
+     "quantity": 1
+    },
+    {
+     "id": 150,
+     "invoice_id": 58,
+     "product_id": 24,
+     "quantity": 4
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "customer_id": 27,
+   "finalized": true,
+   "paid": true,
+   "date": "2026-09-06",
+   "deadline": "2026-11-05",
+   "invoice_lines": [
+    {
+     "id": 151,
+     "invoice_id": 59,
+     "product_id": 2,
+     "quantity": 7
+    },
+    {
+     "id": 152,
+     "invoice_id": 59,
+     "product_id": 14,
+     "quantity": 7
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "customer_id": 38,
+   "finalized": false,
+   "paid": false,
+   "date": "2026-01-19",
+   "deadline": "2026-02-03",
+   "invoice_lines": [
+    {
+     "id": 153,
+     "invoice_id": 60,
+     "product_id": 16,
+     "quantity": 5
+    },
+    {
+     "id": 154,
+     "invoice_id": 60,
+     "product_id": 21,
+     "quantity": 3
+    },
+    {
+     "id": 155,
+     "invoice_id": 60,
+     "product_id": 11,
+     "quantity": 2
+    }
+   ]
+  }
+ ],
+ "sequences": {
+  "invoice": 61,
+  "invoiceLine": 156
+ }
+}

@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    name: Lint, types and tests
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 2s
+          --health-timeout 3s
+          --health-retries 20
+    env:
+      TEST_DATABASE_URL: postgresql+psycopg://postgres:postgres@localhost:5432/invoice_api_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.9.9"
+          enable-cache: true
+      - run: uv sync --locked --python 3.13
+      - name: Lint
+        run: uv run ruff check . && uv run ruff format --check .
+      - name: Type-check (mypy, strict)
+        run: uv run mypy
+      - name: Tests against PostgreSQL
+        run: uv run pytest --cov --cov-report=term --cov-fail-under=90
+
+  docker:
+    name: Docker image starts and answers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and start the API with its database
+        run: docker compose up --build --detach --wait
+      - name: Smoke test
+        run: |
+          curl --fail --silent http://localhost:8000/health
+          token=$(curl --fail --silent -X POST http://localhost:8000/sessions \
+            -H 'Content-Type: application/json' -d '{"role":"viewer"}' | jq -r .token)
+          total=$(curl --fail --silent -H "X-SESSION: $token" \
+            'http://localhost:8000/invoices?per_page=1' | jq .pagination.total_entries)
+          echo "Invoices in the demo data: $total"
+          test "$total" = "60"
+      - name: Logs on failure
+        if: failure()
+        run: docker compose logs

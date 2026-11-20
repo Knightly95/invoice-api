@@ -1,0 +1,20 @@
+# Render Blueprint: the API as a free Docker web service.
+# The database is on Supabase; paste its connection string into DATABASE_URL
+# when Render asks (use the "Session pooler" string: Render has no IPv6).
+services:
+  - type: web
+    name: invoice-api
+    runtime: docker
+    plan: free
+    region: frankfurt
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false
+      - key: CORS_ORIGINS
+        value: '["https://knightly95.github.io","http://localhost:3000"]'
