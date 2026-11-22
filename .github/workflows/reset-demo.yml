@@ -1,0 +1,32 @@
+# The live demo lets anyone sign in as an accountant, so put the demo data
+# back every night. Needs the DEMO_DATABASE_URL repository secret.
+name: Reset demo data
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DEMO_DATABASE_URL }}
+    steps:
+      - name: Skip when no demo database is configured
+        if: env.DATABASE_URL == ''
+        run: echo "DEMO_DATABASE_URL is not set; nothing to reset."
+      - uses: actions/checkout@v4
+        if: env.DATABASE_URL != ''
+      - uses: astral-sh/setup-uv@v6
+        if: env.DATABASE_URL != ''
+        with:
+          version: "0.9.9"
+      - name: Migrate and reload the demo data
+        if: env.DATABASE_URL != ''
+        run: |
+          uv run --no-dev alembic upgrade head
+          uv run --no-dev python -m invoice_api.seed --reset
